@@ -21,4 +21,25 @@ F 200
 R 90
 B 500
 ```
+#### Result
+![example](Example.png "Example")
 
+# Installation & Running
+
+### Project uses Poetry, so run this to install
+
+###### Windows
+```bash
+(Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
+```
+
+###### Linux
+```bash
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+```
+
+#### Then run this
+
+```bash
+poetry run main
+```
