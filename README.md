@@ -12,7 +12,7 @@
 | S       |Select turtle | 1 Number		  |
 | SS      |Set Speed     | 1 Number		  |
 | G		  |GoTo x,y		 | 2 Numbers(x,y) |
-## Example script:
+## Example script (default script.do):
 ```
 SS 2
 F 400
